@@ -29,6 +29,7 @@
     "shadow-cljs": "^2.2.30"
   },
   "dependencies": {
+    "ckeditor4-react": "^1.0.1",
     "create-react-class": "^15.6.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",

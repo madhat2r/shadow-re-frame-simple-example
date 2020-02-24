@@ -3,6 +3,7 @@
             [re-frame.core :as rf]
             [clojure.string :as str]
             [simple.routes :as routes]
+            ["ckeditor4-react" :refer [CKEditor]]
             ))
 
 ;; -- Domino 1 Event Dispatch
@@ -97,6 +98,7 @@
 (defn ui []
   [:div
    [:h1 "Hello world, it is now"]
+   [:> CKEditor]
    [clock]
    [color-input]
    [main-panel]])
